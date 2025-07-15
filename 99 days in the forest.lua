@@ -22,7 +22,7 @@ local GameIds = {
 GameName = GameIds[game.PlaceId] or "Universal"
 
 -- Load your cleaned key module WITHOUT key validation (adjust the raw URL)
-local KeyModule = loadstring(game:HttpGet("https://raw.githubusercontent.com/bobking76457564/DoorsScript/main/99days.lua", true))()
+local KeyModule = loadstring(game:HttpGet("https://raw.githubusercontent.com/bobking76457564/scripts/refs/heads/main/KeymodulesBeta.lua", true))()
 
 local Rayfield = loadstring(game:HttpGet('https://sirius.menu/rayfield'))()
 
