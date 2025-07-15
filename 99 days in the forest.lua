@@ -21,7 +21,7 @@ local GameIds = {
 
 GameName = GameIds[game.PlaceId] or "Universal"
 
-local KeyModule = loadstring(game:HttpGet("https://raw.githubusercontent.com/Chavels123/Newloader/refs/heads/main/KeymodulesBeta.lua"))()
+local KeyModule = loadstring(game:HttpGet("https://raw.githubusercontent.com/bobking76457564/scripts/refs/heads/main/KeymodulesBeta.lua"))()
 
 local Rayfield = loadstring(game:HttpGet('https://sirius.menu/rayfield'))()
 
