@@ -1,12 +1,13 @@
 local Rayfield = loadstring(game:HttpGet("https://sirius.menu/rayfield"))()
 
 local Window = Rayfield:CreateWindow({
-    Name = "99 Nights in the Forest OP script",
-    LoadingTitle = "by Someone",
+    Name = "Bruhvr hub",
+    LoadingTitle = "bruhvr hub | 99 Nights in the Forest",
+    LoadingSubtitle = "by Bruhvr",
     ConfigurationSaving = {
         Enabled = true,
-        FolderName = "99 Nights in the Forest OP script",
-        FileName = "99 Nights in the Forest OP script"
+        FolderName = "Bruhvr hub",
+        FileName = "Bruhvr hub"
     },
     Discord = {
         Enabled = false,
@@ -15,23 +16,23 @@ local Window = Rayfield:CreateWindow({
     },
     KeySystem = false,
     KeySettings = {
-        Title = "99 Nights in the Forest OP script",
+        Title = "Bruhvr hub",
         Subtitle = "Key System",
         Note = "Join our Discord (https://discord.gg/BnPXzFhYbB) to obtain the key",
-        FileName = "H4cksKey",
+        FileName = "Bruhvr hub",
         SaveKey = true,
         GrabKeyFromSite = false,
         Key = {"Hello"}
     }
 })  -- end Rayfield:CreateWindow call
 -- Clipboard copy on load (removed)
-print("[99 Nights in the Forest OP script])
+print("[H4cks.hub] Join our Discord: https://discord.gg/BnPXzFhYbB")
 Rayfield:Notify({Title = "Discord", Content = "Invite link printed to console (F9)", Duration = 5})
 
 local PlayerTab = Window:CreateTab("Player", "user")
 local ItemTab = Window:CreateTab("Items", "package")
 
-local Label = PlayerTab:CreateLabel("Welcome to 99 Days in the Forest OP script", "user")
+local Label = PlayerTab:CreateLabel("Welcome to H4cks.hub", "user")
 
 local DEFAULT_WALK_SPEED = 16
 local FAST_WALK_SPEED = 50
